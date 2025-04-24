@@ -19,5 +19,6 @@ PyInstaller.__main__.run([
     '--clean',  # Clean cache
     '--hidden-import=gpt4all',  # Include AI module
     '--hidden-import=PyQt6',
-    '--collect-data=gpt4all',  # Include AI model data
+    '--collect-all=gpt4all',  # Include AI model data
+    '--collect-all=PyQt6',
 ])
